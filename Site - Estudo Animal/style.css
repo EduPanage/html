@@ -1,0 +1,196 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+  border: 2px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.main {
+  border: 2px;
+  border-radius: 10px;
+  background-color: #f9f8f2;
+  text-align: justify;
+  padding: 2%;
+}
+
+footer {
+  border: 2px;
+  border-radius: 10px;
+  background-color: #4caf50;
+  padding: 30px;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+
+footer h6 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+footer p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .col {
+  flex: 1;
+  padding: 10px;
+  min-width: 200px;
+}
+
+#comentarios {
+  background-color: #F0F8FF;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #4caf50; 
+  border-radius: 10px; 
+}
+
+#comentarios h6 {
+  font-size: 1.5rem; 
+  color: #000000;
+  margin-bottom: 20px; 
+}
+
+#comentario-form {
+  margin-top: 20px;
+}
+
+#comentario-form div {
+  margin-bottom: 15px;
+}
+
+#comentario label,
+#comentario input,
+#comentario textarea {
+  color: #333;
+}
+
+#comentario input,
+#comentario textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#comentario button {
+  background-color: #009688;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#comentario button:hover {
+  background-color: #006552;
+}
+
+#comentarios-container p {
+  color: #333;
+}
+
+.hero {
+  background-image: url('https://i.pinimg.com/originals/e9/de/ea/e9deea03e5deafdcae26a3ef5d28900e.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  color: #4caf50;
+  font-size: 2rem;
+}
+
+.section {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+h4 {
+  color: #4caf50;
+  font-size: 2rem;
+}
+
+p {
+  margin-top: 0 !important;
+}
+
+#img-inicial {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#img-inicial img {
+  border: 2px;
+  border-radius: 10px; 
+  max-width: 100%;
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-inicial figcaption {
+  margin-top: 10px;
+  font-size: 0.8em;
+  color: #666;
+}
+
+.main img {
+  border: 2px;
+  border-radius: 10px; 
+  max-width: 100%; 
+  height: auto; 
+}
+
+button.btn.green {
+  margin: 5px;
+  background-color: #009688;
+  color: #fff;
+}
+
+button.btn.green:hover {
+  background-color: #006552;
+}
+
+#info {
+  width: 100%;
+  padding: 20px;
+  text-align: justify;
+  background-color: #4caf50;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+}
